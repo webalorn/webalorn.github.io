@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Théophane Vallaeys - Academic pages"
+title: "My academic page"
 author_profile: true
 redirect_from: 
   - /about/
