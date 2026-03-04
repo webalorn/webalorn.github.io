@@ -79,10 +79,12 @@ publication_category:
     title: 'Books'
   conferences:
     title: 'Conference Papers'
-  manuscripts:
-    title: 'Journal Articles'    
+  journal: 
+    title: 'Journal Articles'
   workshop:
-    title: 'Workshop papers'
+    title: 'Workshop Papers'
+  arxiv: 
+    title: 'arXiv Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

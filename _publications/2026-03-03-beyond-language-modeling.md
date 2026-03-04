@@ -1,7 +1,7 @@
 ---
 title: "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
 collection: publications
-category: manuscripts
+category: arxiv
 permalink: /publications/2026-03-03-beyond-language-modeling
 excerpt: 'Empirical study of native multimodal pretraining using Transfusion framework, revealing key insights on visual representation, data synergy, world modeling, and MoE scaling.'
 date: 2026-03-03

@@ -37,7 +37,7 @@ Create files in `_publications/` with format `YYYY-MM-DD-slug.md`:
 ---
 title: "Paper Title"
 collection: publications
-category: conferences  # conferences | workshop | manuscripts | books
+category: conferences  # conferences | workshop | arxiv
 permalink: /publications/YYYY-MM-DD-slug
 excerpt: 'Brief description'
 date: YYYY-MM-DD

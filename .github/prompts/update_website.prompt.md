@@ -46,7 +46,7 @@ For each new publication, create a file in `_publications/` with the naming form
 ---
 title: "Full Paper Title"
 collection: publications
-category: conferences  # One of: conferences | workshop | manuscripts | books
+category: conferences  # One of: conferences | workshop | manuscripts | journal | books
 permalink: /publications/YYYY-MM-DD-slug
 excerpt: 'Brief 1-2 sentence description of the paper'
 date: YYYY-MM-DD
@@ -65,7 +65,8 @@ Abstract: *Copy the abstract here in italics*
 Choose the correct category based on publication type:
 - `conferences`: Full conference papers (CVPR, NeurIPS, ICML, ECCV, ICCV, etc.)
 - `workshop`: Workshop papers at conferences
-- `manuscripts`: Journal articles or arxiv preprints
+- `journal`: Journal articles
+- `arxiv`: arXiv preprints
 - `books`: Book chapters or full books
 
 ### Date Format
