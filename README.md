@@ -6,5 +6,5 @@ Based on the [Academic Pages template](https://academicpages.github.io/), with i
 
 Development server:
 ```bash
-bundle exec jekyll serve -l -H localhost
+bundle exec jekyll serve -H dev.webalorn.com --port 4000
 ```

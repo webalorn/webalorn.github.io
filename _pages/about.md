@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Greetings, I am Théophane Vallaeys (or *webalorn* on the internet), a soon-to-be French PhD student at [Meta (FAIR)](https://ai.meta.com/research/) in Paris and at [Sorbonne Université](https://www.sorbonne-universite.fr/), under the supervision of [Jakob Verbeek](https://lear.inrialpes.fr/people/verbeek/) and [Matthieu Cord](https://cord.isir.upmc.fr/).
+Greetings, I am Théophane Vallaeys (or *webalorn* on the internet), a French PhD student at [Meta (FAIR)](https://ai.meta.com/research/) in Paris and at [Sorbonne Université](https://www.sorbonne-universite.fr/), under the supervision of [Jakob Verbeek](https://lear.inrialpes.fr/people/verbeek/) and [Matthieu Cord](https://cord.isir.upmc.fr/).
 
-My PhD project revolves around generative image models seen as world models, and the applications of such models to improve synthetic training.
+My PhD project revolves around Flow-Matching models for visual modeling, with a focus on pixel-space generation.
 
 ## My background and history
 
