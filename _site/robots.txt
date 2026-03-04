@@ -1,1 +1,1 @@
-Sitemap: http://dev.webalorn.com:4000/sitemap.xml
+Sitemap: https://webalorn.com/sitemap.xml
