@@ -51,6 +51,7 @@ permalink: /publications/YYYY-MM-DD-slug
 excerpt: 'Brief 1-2 sentence description of the paper'
 date: YYYY-MM-DD
 venue: 'Conference/Journal Name with Year'
+authors: 'Author One, Author Two, Author Three'  # Full author list
 paperurl: 'https://arxiv.org/abs/...'   # Link to paper PDF (arxiv preferred)
 codeurl: 'https://github.com/...'       # Link to source code (if available)
 # slidesurl: 'https://...'              # Link to slides (if available)
@@ -126,6 +127,7 @@ permalink: /publications/2024-03-20-depalm
 excerpt: 'Experimental evaluation and improvements of data-efficient multi-modal adaptation of single-modality LLM and perceptual backbones.'
 date: 2024-03-20
 venue: '1st Workshop on Green Foundation Models, ECCV'
+authors: 'Théophane Vallaeys, Mustafa Shukor, Matthieu Cord, Jakob Verbeek'
 paperurl: 'https://arxiv.org/abs/2403.13499'
 codeurl: 'https://github.com/facebookresearch/DePALM'
 ---
@@ -137,7 +139,8 @@ Abstract: *The abilities of large language models (LLMs) have recently progresse
 
 Before finishing, verify:
 - [ ] All new publications from Google Scholar have been added
-- [ ] Each file has correct front matter (title, collection, category, permalink, date, venue)
+- [ ] Each file has correct front matter (title, collection, category, permalink, date, venue, authors)
+- [ ] Authors list is complete and accurate
 - [ ] Categories are correctly assigned (conferences/workshop/manuscripts/books)
 - [ ] Paper URLs are valid (preferably arxiv)
 - [ ] Code URLs are included where available

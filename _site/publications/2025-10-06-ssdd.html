@@ -19,7 +19,7 @@
 
 
 
-<title>Posts by Collection - Théophane Vallaeys</title>
+<title>SSDD: Single-Step Diffusion Decoder for Efficient Image Tokenization - Théophane Vallaeys</title>
 
 
 
@@ -29,13 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Théophane Vallaeys">
-<meta property="og:title" content="Posts by Collection">
+<meta property="og:title" content="SSDD: Single-Step Diffusion Decoder for Efficient Image Tokenization">
 
 
-  <link rel="canonical" href="http://dev.webalorn.com:4000/collection-archive/">
-  <meta property="og:url" content="http://dev.webalorn.com:4000/collection-archive/">
+  <link rel="canonical" href="http://dev.webalorn.com:4000/publications/2025-10-06-ssdd">
+  <meta property="og:url" content="http://dev.webalorn.com:4000/publications/2025-10-06-ssdd">
 
 
+
+  <meta property="og:description" content="A new pixel diffusion decoder architecture for image tokenization that achieves higher reconstruction quality and faster sampling than KL-VAE through distillation-based single-step decoding.">
 
 
 
@@ -48,6 +50,9 @@
 
 
 
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2025-10-06T00:00:00-07:00">
 
 
 
@@ -159,6 +164,8 @@
 
 
 
+
+
 <div id="main" role="main">
   
 
@@ -261,306 +268,113 @@
   </div>
 
 
-  <div class="archive">
-    
-      <h1 class="page__title">Posts by Collection</h1>
-    
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="SSDD: Single-Step Diffusion Decoder for Efficient Image Tokenization">
+    <meta itemprop="description" content="A new pixel diffusion decoder architecture for image tokenization that achieves higher reconstruction quality and faster sampling than KL-VAE through distillation-based single-step decoding.">
+    <meta itemprop="datePublished" content="October 06, 2025">
     
 
-
-
-  
-    
-    
-      <h2 id="portfolio" class="archive__subtitle">portfolio</h2>
+    <div class="page__inner-wrap">
       
-    
-  
-  
-
-  
-  
-
-  
-    
-    
-      <h2 id="publications" class="archive__subtitle">publications</h2>
-      
-    
-  
-  
-    
-      
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="http://dev.webalorn.com:4000/publications/2024-03-20-depalm" rel="permalink">Improved Baselines for Data-efficient Perceptual Augmentation of LLMs
-</a>
-      
-    </h2>
-    
-    
-
-        
-          <p class="archive__item-authors"><i>Théophane Vallaeys, Mustafa Shukor, Matthieu Cord, Jakob Verbeek</i></p>
-          <p>Published in <i>1st Workshop on Green Fondation Models, ECCV</i>, 2024 </p>
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p>Experimental evaluation and improvements of data-efficient multi-modal adaptation of single-modality LLM and perceptual backbones.</p>
-</p>
-    
-    
-    <!-- 
-      <p><a href=" https://arxiv.org/abs/2403.13499 ">Download Paper</a></p>
-     -->
-
-    
-      <p style="font-size: smaller">
-        
-        
-          <a href="https://arxiv.org/abs/2403.13499">Download Paper</a>
+        <header>
+          <h1 class="page__title" itemprop="headline">SSDD: Single-Step Diffusion Decoder for Efficient Image Tokenization
+</h1>
+          
         
         
         
-          | <a href="https://github.com/facebookresearch/DePALM">Source code</a>
-        
-      </p>
-    
-
-  </article>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="http://dev.webalorn.com:4000/publications/2025-01-06-qinco2" rel="permalink">Qinco2: Vector Compression and Search with Improved Implicit Neural Codebooks
-</a>
-      
-    </h2>
-    
-    
-
-        
-          <p class="archive__item-authors"><i>Théophane Vallaeys, Matthew Muckley, Jakob Verbeek, Matthijs Douze</i></p>
+          <p><i>Théophane Vallaeys, Jakob Verbeek, Matthieu Cord</i></p>
           <p>Published in <i>arXiv preprint</i>, 2025 </p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>Abstract: <em>Tokenizers are a key component of state-of-the-art generative image models, extracting the most important features from the signal while reducing data dimension and redundancy. Most current tokenizers are based on KL-regularized variational autoencoders (KL-VAE), trained with reconstruction, perceptual and adversarial losses. Diffusion decoders have been proposed as a more principled alternative to model the distribution over images conditioned on the latent. However, matching the performance of KL-VAE still requires adversarial losses, as well as a higher decoding time due to iterative sampling. To address these limitations, we introduce a new pixel diffusion decoder architecture for improved scaling and training stability, benefiting from transformer components and GAN-free training. We use distillation to replicate the performance of the diffusion decoder in an efficient single-step decoder. This makes SSDD the first diffusion decoder optimized for single-step reconstruction trained without adversarial losses, reaching higher reconstruction quality and faster sampling than KL-VAE. In particular, SSDD improves reconstruction FID from 0.87 to 0.50 with 1.4× higher throughput and preserve generation quality of DiTs with 3.8× faster sampling. As such, SSDD can be used as a drop-in replacement for KL-VAE, and for building higher-quality and faster generative models.</em></p>
+
+
+        
+          <p style="font-size: smaller">
+            
+            
+              <a href="https://arxiv.org/abs/2510.04961">Download Paper</a>
+            
+            
+            
+          </p>
+        
         
 
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
     
-    <p class="archive__item-excerpt" itemprop="description"><p>Improvements to QINCo for vector quantization with better encoding, fast approximate decoding, and optimized training, achieving state-of-the-art results in vector compression and billion-scale search.</p>
-</p>
+      
+      
+      <a href="http://dev.webalorn.com:4000/categories/#manuscripts" class="page__taxonomy-item" rel="tag">manuscripts</a>
+    
+    </span>
+  </p>
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://dev.webalorn.com:4000/publications/2025-10-06-ssdd" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://dev.webalorn.com:4000/publications/2025-10-06-ssdd" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://dev.webalorn.com:4000/publications/2025-10-06-ssdd" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="http://dev.webalorn.com:4000/publications/2025-01-06-qinco2" class="pagination--pager" title="Qinco2: Vector Compression and Search with Improved Implicit Neural Codebooks
+">Previous</a>
     
     
-    <!-- 
-      <p><a href=" https://arxiv.org/abs/2501.03078 ">Download Paper</a></p>
-     -->
+      <a href="http://dev.webalorn.com:4000/publications/2025-10-08-vugen" class="pagination--pager" title="VUGEN: Visual Understanding priors for GENeration
+">Next</a>
+    
+  </nav>
+
+    </div>
 
     
-      <p style="font-size: smaller">
-        
-        
-          <a href="https://arxiv.org/abs/2501.03078">Download Paper</a>
-        
-        
-        
-      </p>
-    
-
   </article>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="http://dev.webalorn.com:4000/publications/2025-10-06-ssdd" rel="permalink">SSDD: Single-Step Diffusion Decoder for Efficient Image Tokenization
-</a>
-      
-    </h2>
-    
-    
-
-        
-          <p class="archive__item-authors"><i>Théophane Vallaeys, Jakob Verbeek, Matthieu Cord</i></p>
-          <p>Published in <i>arXiv preprint</i>, 2025 </p>
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p>A new pixel diffusion decoder architecture for image tokenization that achieves higher reconstruction quality and faster sampling than KL-VAE through distillation-based single-step decoding.</p>
-</p>
-    
-    
-    <!-- 
-      <p><a href=" https://arxiv.org/abs/2510.04961 ">Download Paper</a></p>
-     -->
-
-    
-      <p style="font-size: smaller">
-        
-        
-          <a href="https://arxiv.org/abs/2510.04961">Download Paper</a>
-        
-        
-        
-      </p>
-    
-
-  </article>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="http://dev.webalorn.com:4000/publications/2025-10-08-vugen" rel="permalink">VUGEN: Visual Understanding priors for GENeration
-</a>
-      
-    </h2>
-    
-    
-
-        
-          <p class="archive__item-authors"><i>Xiangyi Chen, Théophane Vallaeys, Maha Elbayad, John Nguyen, Jakob Verbeek</i></p>
-          <p>Published in <i>arXiv preprint</i>, 2025 </p>
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p>A framework that leverages VLM pretrained visual understanding priors for efficient and high-quality image generation, achieving superior performance while preserving understanding capabilities.</p>
-</p>
-    
-    
-    <!-- 
-      <p><a href=" https://arxiv.org/abs/2510.06529 ">Download Paper</a></p>
-     -->
-
-    
-      <p style="font-size: smaller">
-        
-        
-          <a href="https://arxiv.org/abs/2510.06529">Download Paper</a>
-        
-        
-        
-      </p>
-    
-
-  </article>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="http://dev.webalorn.com:4000/publications/2026-03-03-beyond-language-modeling" rel="permalink">Beyond Language Modeling: An Exploration of Multimodal Pretraining
-</a>
-      
-    </h2>
-    
-    
-
-        
-          <p class="archive__item-authors"><i>Shengbang Tong, David Fan, John Nguyen, Ellis Brown, Gaoyue Zhou, Shengyi Qian, Boyang Zheng, Théophane Vallaeys, Junlin Han, Rob Fergus, Naila Murray, Marjan Ghazvininejad, Mike Lewis, Nicolas Ballas, Amir Bar, Michael Rabbat, Jakob Verbeek, Luke Zettlemoyer, Koustuv Sinha, Yann LeCun, Saining Xie</i></p>
-          <p>Published in <i>arXiv preprint</i>, 2026 </p>
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p>Empirical study of native multimodal pretraining using Transfusion framework, revealing key insights on visual representation, data synergy, world modeling, and MoE scaling.</p>
-</p>
-    
-    
-    <!-- 
-      <p><a href=" https://arxiv.org/abs/2603.03276 ">Download Paper</a></p>
-     -->
-
-    
-      <p style="font-size: smaller">
-        
-        
-          <a href="https://arxiv.org/abs/2603.03276">Download Paper</a>
-        
-        
-        
-      </p>
-    
-
-  </article>
-</div>
-
-    
-  
 
   
-    
-    
-      <h2 id="talks" class="archive__subtitle">talks</h2>
-      
-    
   
-  
-
-  
-    
-    
-      <h2 id="teaching" class="archive__subtitle">teaching</h2>
-      
-    
-  
-  
-
-  </div>
 </div>
 
 

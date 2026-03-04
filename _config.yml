@@ -24,7 +24,7 @@ author:
   avatar           : "profile-picture.jpg"
   name             : "Théophane Vallaeys"
   pronouns         : # example: "she/her"  
-  bio              : "Soon-to-be PhD student at Meta (FAIR) in Paris. Interested in vision, representation and generative image models."
+  bio              : "PhD student at Meta (FAIR) in Paris. Interested in vision, representation and generative image models."
   location         : "Paris, France"
   employer         : "Meta (FAIR)"
   uri              : # URL
